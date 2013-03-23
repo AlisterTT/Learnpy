@@ -64,7 +64,8 @@ def convert(snippet, phrase):
 try:
 	while True:
 		snippets = PHRASES.keys()		# 将snippets定义为字典里面的keys，也就是冒号前那些
-		random.shuffle(snippets)
+	
+		random.shuffle(snippets)		
 
 		for snippet in snippets:
 			phrase = PHRASES[snippet]
